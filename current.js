@@ -6,23 +6,22 @@ const getValues = (str)=>{
     return JSON.parse(str)[0];
 }
 
+let grid = [];
 function parse(text, part=1){
     let lines = file.getSample(text).trim();
     lines = lines.split('\n');
+    for (let line of lines){
+        let temp = line.split('');
+        grid.push(temp);
+    }
 }
 
-function part1(){
-    let sum = 0;
-    return sum;
-}
+function solve(part=1){
 
-function part2(){
-    let sum = 0;
-    return sum;
-}
+} 
 
 parse("sample.txt");
 //parse("input.txt");
 
-console.log(`Part 1: ${part1()}`);
-console.log(`Part 2: ${part2()}`);
+console.log(`Part 1: ${solve(1)}`);
+//console.log(`Part 2: ${solve(2)}`);
