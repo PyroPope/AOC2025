@@ -1,5 +1,6 @@
 # AOC2025
 Day 1-5: I was behind due to personal reasons so I finished day 1-5 tonight.
+Day 8: Did not start ontime. Started the next day. part 1 got me stuck, took like 50 minutes, but set myself up pretty well for part 2.
 
     Scores 2025:
       Day   -Part 1-   -Part 2-
