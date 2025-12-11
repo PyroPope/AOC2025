@@ -1,4 +1,4 @@
-const file = require("./utils/import");
+const file = require("../utils/import");
 
 let graph = []
 let memo = new Map();
@@ -52,6 +52,6 @@ function solve(part=1){
     return countPathsFrom(start)
 } 
 
-parse("input.txt");
+parse("Day11.txt");
 console.log(`Part 1: ${solve(1)}`);
 console.log(`Part 2: ${solve(2)}`);
