@@ -5,6 +5,7 @@ Day 9: Best performance of the year, and probably will remain as such.
 
     Scores 2025:
       Day   -Part 1-   -Part 2-
+       12   00:37:51   00:37:56
        11   00:10:54   01:01:57
        10   00:25:23   01:06:08
         9   00:19:54   00:47:28
